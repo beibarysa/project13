@@ -1,29 +1,33 @@
 .main__less {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
    
 }
 p {
     color: aliceblue;
-    margin-left: 5px;
+    
 }
 
 .less__first {
 display: flex;
+justify-content: space-between;
+width: 250px;
 }
 
-h3 {
-    color: aliceblue;
-}
+
 .less__second {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+   
 }
 
 .less__third {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 200px;
 }
 
 .start__figure {
@@ -37,4 +41,20 @@ h3 {
 .third__section {
     display: flex;
     align-items: center;
+    margin-left: 12px;
 }
+
+button,
+button:active,
+button:focus  {
+  border:none;
+}
+
+button {
+    color: aliceblue;
+    background-color: black;
+    width: 200px;
+    font-size: 22px;
+}
+
+
