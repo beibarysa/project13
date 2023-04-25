@@ -1,0 +1,24 @@
+.header__figure {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+   
+}
+.main {
+    background-color: black;
+    
+}
+
+.tiny__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main__tiny {
+    max-width: 1300px;
+    margin: auto;
+    background-color: black;
+}
