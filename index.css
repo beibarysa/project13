@@ -1,0 +1,40 @@
+.main__less {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+   
+}
+p {
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.less__first {
+display: flex;
+}
+
+h3 {
+    color: aliceblue;
+}
+.less__second {
+    display: flex;
+    align-items: center;
+}
+
+.less__third {
+    display: flex;
+    align-items: center;
+}
+
+.start__figure {
+    margin-left: 10px;
+}
+
+.section__rate {
+    color: rgb(189, 189, 16);
+}
+
+.third__section {
+    display: flex;
+    align-items: center;
+}
