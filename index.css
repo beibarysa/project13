@@ -1,56 +1,10 @@
-.about__name {
-  background: linear-gradient(45deg, rgb(245, 62, 62), white);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-}
-
-.section {
-    background-color: black;
-}
-
-.main__figure {
-  width: 270px;
-  display: flex;
-  align-items:end;
- 
-}
-
-.figure__img {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-height: 50px;
-
-}
-
 .main {
-  background-color: black;
-  height: 300px;
-}
-
-.about__discription {
-  color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-}
-
-.figure__about {
   display: flex;
-  justify-content: space-between;
-  height: 150px;
-  flex-direction: column;
-  margin-left: 10px;
-  
+  justify-content: center;
+  align-items: center;
 }
 
-.img__polygon-fig {
-  width: 22px;
+.main__img {
+  width: 680px;
+  height: 760px;
 }
-
-.img__rectangle-fig {
-  width: 22px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
