@@ -1,10 +1,25 @@
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+height: 120px;
+width: 200px;
+margin-top: 300px;
 }
 
-.main__img {
-  width: 680px;
-  height: 760px;
+.after__first {
+width: 200px;
+position: absolute;
+margin-top: -100px;
 }
+
+.after__second {
+width: 200px;
+position: absolute;
+
+
+}
+
+.main__after {
+    position: relative;
+}
+
+
+
