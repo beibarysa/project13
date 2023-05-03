@@ -1,26 +1,47 @@
+.main__mini {
+    display: flex;
+    position: absolute ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .main {
-height: 120px;
-width: 200px;
-margin-top: 300px;
-margin-left: 1200px;
-}
-
-.after__first {
-width: 200px;
-position: absolute;
-margin-top: -100px;
-}
-
-.after__second {
-width: 200px;
-position: absolute;
-
-
-}
-
-.main__after {
     position: relative;
+    margin-top: 300px;
+    margin-left: 1200px;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+}
+
+.main__title {
+    position: absolute;
 }
 
 
+.title__name {
+    color: aliceblue;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.mini__img-3 {
+    margin-left: -10px;
+    height: 37px;
+}
+
+.mini__img-1 {
+    height: 74px;
+    width: 70px;
+}
+
+.mini__img-2 {
+    height: 74px;
+    width: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
 
