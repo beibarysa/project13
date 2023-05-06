@@ -1,47 +1,58 @@
-.main__mini {
+.main {
+   position: relative;
+}
+
+.main__icon-1 {
     display: flex;
-    position: absolute ;
-    display: flex;
+    margin-right: 500px;
     justify-content: center;
     align-items: center;
+margin-top: 300px;
+
+}
+
+.main__icon-2 {
+   display: flex;
+  margin-right: 800px;
+   justify-content: center;
+   align-items: center;
+    margin-top: 180px;
     
 }
 
-.main {
-    position: relative;
-    margin-top: 300px;
-    margin-left: 1200px;
-    background-color: black;
-    width: 200px;
-    height: 300px;
+.main__icon-3 {
+   display: flex;
+  margin-right: 20px;
+   justify-content: center;
+   align-items: center;
+    margin-top:100px;
+    
 }
 
-.main__title {
+.icon-1__circle {
+   position: absolute;
+   
+}
+
+.icon-1__girl {
+   
+}
+
+.icon-2__rectangle {
     position: absolute;
+   
 }
 
-
-.title__name {
-    color: aliceblue;
-    margin-left: 5px;
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+.icon-2__mask {
+    
 }
 
-.mini__img-3 {
-    margin-left: -10px;
-    height: 37px;
+.icon-3__polygon {
+    position: absolute;
+    
 }
 
-.mini__img-1 {
-    height: 74px;
-    width: 70px;
+.icon-3__boy {
+    
+   
 }
-
-.mini__img-2 {
-    height: 74px;
-    width: 70px;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
-
