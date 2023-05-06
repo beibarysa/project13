@@ -25,10 +25,7 @@ height: 50px;
 
 }
 
-.main {
-  background-color: black;
-  height: 300px;
-}
+
 
 .about__discription {
   color: aliceblue;
@@ -54,3 +51,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
+
+.main {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+}
